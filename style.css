@@ -16087,9 +16087,9 @@ img {
         flex-direction: column !important;
     }
     .infoBox p {
-        font-size: 15px !important;
         line-height: 20px !important;
         font-weight: 400 !important;
+        font-size: 15px !important;
     }
     .infoBox img {
         max-width: 100% !important;
@@ -16097,6 +16097,7 @@ img {
 }
 .infoBox p {
     text-align: justify;
+    font-size: 18px !important;
 }
 @media (min-width: 1200px) {
     .container-timeline ul {
@@ -16125,9 +16126,8 @@ img {
     margin-bottom: 50px;
 }
 .infoBox p {
-    font-size: 22px;
     font-weight: 600;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .infoBox:nth-child(odd) {
