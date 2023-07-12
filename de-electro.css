@@ -73,7 +73,7 @@ header.smaller,
 .dark-scheme section,
 .de_tab.tab_style_4 .de_nav.de_nav_dark li,
 body::-webkit-scrollbar-track{
-    background: #220725;
+    background: #061347;
 }
 
 .pricing-s1:hover .mid{
@@ -117,11 +117,18 @@ body::-webkit-scrollbar-track{
     border: solid 1px #ffffff;
     display: inline-block;
     padding:40px 60px 30px 60px;
+    max-width: 100%;
+}
+@media(max-width : 350px) {
+    .box-line-inner {
+        padding:25px 45px 20px 45px;
+    }
 }
 .box-line-outer{
     padding: 5px;
     display: inline-block;
     border: solid 1px #ffffff;
+    max-width: 100%;
 }
 
 .pricing-s1 .m, .pricing-s1 span{
@@ -131,17 +138,24 @@ body::-webkit-scrollbar-track{
 .title-box-inner h2{
     margin-bottom: 0;
 }
+@media (max-width : 1000px) {
+    .title-box-inner h2{
+       font-size: 20px !important;
+    }
+}
 
 .title-box-inner{
     border: solid 1px #ffffff;
     display: inline-block;
     padding:10px 20px;
+    max-width: 100%;
 }
 .title-box-outer{
     padding: 4px;
     display: inline-block;
     border: solid 1px #ffffff;
     margin-bottom: 40px;
+    max-width: 100%;
 }
 
 .btn-main-wrap{

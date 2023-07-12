@@ -10078,6 +10078,7 @@ body::-webkit-scrollbar-thumb {
 
 .f-logo {
     margin-right: 30px;
+    width: 100%;
 }
 
 .rtl .f-logo {
@@ -16050,12 +16051,13 @@ img {
         background-size: auto 100%;
         background-attachment: scroll;
     }
-    #logo > a > img {
-          
-        width: 90px;
-        
-    }
    
+   
+}
+#logo > a > img {
+          
+    width: 90px;
+    
 }
 
 @media (max-width : 1200px) {
