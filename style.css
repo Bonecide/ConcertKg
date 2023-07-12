@@ -56,6 +56,9 @@
 .phone {
     margin : 0;
     white-space: nowrap;
+    background: var(--primary-color);
+    padding: 0px 10px;
+    border-radius: 15px;
     
 }
 .mobilePhone {
