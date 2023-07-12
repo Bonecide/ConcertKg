@@ -50,7 +50,25 @@
 .g-custom-x{
     --bs-gutter-x: 40px;
 }
-
+.img-fluid {
+    width : 100%;
+}
+.phone {
+    margin : 0;
+    white-space: nowrap;
+    
+}
+.mobilePhone {
+    display : none !important;
+}
+@media (max-width : 992px) {
+    .phone {
+        display : none;
+    }
+    .mobilePhone {
+        display : block !important;
+    }
+}
 /* ================================================== */
 
 
@@ -15447,7 +15465,7 @@ img {
     header.header-mobile #mainmenu>li>span {
         width: 36px;
         height: 36px;
-        background: url(../images/ui/arrow-down.png) center no-repeat;
+        background: url(./arrow-down-light.png) center no-repeat;
         position: absolute;
         right: 0;
         margin-top: 10px;
@@ -15456,21 +15474,21 @@ img {
     }
 
     .dark-scheme header.header-mobile #mainmenu>li>span {
-        background: url(../images/ui/arrow-down-light.png) center no-repeat;
+        background: url(./arrow-down-light.png) center no-repeat;
     }
 
     header.header-mobile #mainmenu li span.active {
-        background: url(../images/ui/arrow-up.png) center no-repeat;
+        background: url(./arrow-up-light.png) center no-repeat;
     }
 
     .dark-scheme header.header-mobile #mainmenu li span.active {
-        background: url(../images/ui/arrow-up-light.png) center no-repeat;
+        background: url(./arrow-up-light.png) center no-repeat;
     }
 
     header.header-mobile #mainmenu li>ul>li>span {
         width: 36px;
         height: 36px;
-        background: url(../images/ui/arrow-down.png) center no-repeat;
+        background: url(./arrow-down-light.png) center no-repeat;
         position: absolute;
         right: 0;
         margin-top: -45px;
@@ -15479,7 +15497,7 @@ img {
     }
 
     header.header-mobile #mainmenu>li>ul>li>span.active {
-        background: url(../images/ui/arrow-up.png) center no-repeat;
+        background: url(./arrow-up-light.png) center no-repeat;
     }
 
     header.header-mobile #mainmenu li ul li a {
@@ -16061,7 +16079,9 @@ img {
     width: 90px;
     
 }
-
+.changeLang {
+    top:20px;
+}
 @media (max-width : 1200px) {
     .infoBox {
         flex-direction: column !important;
@@ -16075,7 +16095,9 @@ img {
         max-width: 100% !important;
     }
 }
-
+.infoBox p {
+    text-align: justify;
+}
 @media (min-width: 1200px) {
     .container-timeline ul {
         display: flex;
