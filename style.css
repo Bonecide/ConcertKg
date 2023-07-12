@@ -10080,7 +10080,7 @@ body::-webkit-scrollbar-thumb {
 
 .f-logo {
     margin-right: 30px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .rtl .f-logo {
