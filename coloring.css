@@ -362,22 +362,22 @@ header.transparent #mainmenu a span{
 }
 
 .container-timeline ul li {
-    border-top-color: var(--secondary-color);
+    border-top-color: #FF0000;
 }
 
 .line-preloader .p-line:nth-child(1) {
-    border-right-color: var(--secondary-color);
-    border-bottom-color: var(--secondary-color);
+    border-right-color: #FF0000;
+    border-bottom-color: #FF0000;
 }
 
 .line-preloader .p-line:nth-child(2) {
-    border-left-color: var(--secondary-color);
-    border-top-color: var(--secondary-color);
+    border-left-color: #FF0000;
+    border-top-color: #FF0000;
 }
 
 .line-preloader .p-line:nth-child(3) {
-    border-right-color: var(--secondary-color);
-    border-top-color: var(--secondary-color);
+    border-right-color: #FF0000;
+    border-top-color: #FF0000;
 }
 
 .de-event-item .d-shadow{
@@ -386,10 +386,10 @@ header.transparent #mainmenu a span{
 
 .preloader1 {
     width: 60px;
-    border-top-color: rgba(var(--primary-color-rgb), 0.65);
-    border-bottom-color: rgba(var(--primary-color-rgb), 0.1);
-    border-left-color: rgba(var(--primary-color-rgb), 0.1);
-    border-right-color: rgba(var(--primary-color-rgb), 0.1);
+    border-top-color: rgba(255,0,0, 0.65);
+    border-bottom-color: rgba(255,0,0, 0.1);
+    border-left-color: rgba(255,0,0, 0.1);
+    border-right-color: rgba(255,0,0, 0.1);
 }
 
 @media only screen and (max-width: 992px) {
